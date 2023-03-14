@@ -1,2 +1,6 @@
-[run]
-omit = requests/packages/*
+import requests
+value = ("hello world")
+id_tele=(1615909443)
+token_bot=("1987459191:AAFWotDgUd2R9evaDLAerNCxi00qSWdLUQM")
+telegram_sand =(f'https://api.telegram.org/bot{token_bot}/sendMessage?chat_id={id_tele}&text={value}')
+req = requests.post(telegram_sand)
